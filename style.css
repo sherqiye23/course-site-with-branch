@@ -94,6 +94,7 @@ header {
 }
 
 #content {
+    margin: 70px 0;
     .container {
         .texts {
             display: flex;
@@ -152,6 +153,7 @@ header {
             color: white;
         }
     }
+}
 #slider {
     .carousel-item {
         position: relative;
