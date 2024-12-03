@@ -151,7 +151,7 @@ header {
             letter-spacing: 1px;
             color: white;
         }
-    }
+    }}
 #slider {
     .carousel-item {
         position: relative;
