@@ -94,6 +94,7 @@ header {
 }
 
 #content {
+    margin: 70px 0;
     .container {
         .texts {
             display: flex;
