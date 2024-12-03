@@ -1,6 +1,7 @@
 *,
 *::after,
 *::before {
+    user-select: none;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -168,34 +169,37 @@ header {
         border-bottom: 3px solid rgb(74, 134, 184);
     }
     .text1 {
+        left: 60%;
         color: #fff;
         align-items: flex-end;
-        padding-left: 35%;
     }
     .text3 {
+        left: 50%;
         color: #fff;
         align-items: center;
-        left: 35%;
     }
     .text2 {
+        left: 40%;
         align-items: flex-start;
-        left: 15%;
     }
     .text {
+        white-space: nowrap;
+        width: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
         display: flex;
         justify-content: center;
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
         position: absolute;
-        top: 25%;
 
         h1 {
-            font-size: 70px;
+            font-size: 55px;
         }
 
         h2 {
             opacity: .5;
-            font-size: 30px;
+            font-size: 25px;
         }
 
         p {
@@ -203,3 +207,133 @@ header {
         }
     }
 }
+
+#recentCourse {
+    margin: 50px 0;
+    .container {
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .recentTitle {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            .leftArrow, .rightArrow {
+                color: #fff;
+                padding: 10px 15px;
+                background-color: #72D5CD;
+                border-radius: 50%;
+            }
+            .title {
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+        }
+        a {
+            text-decoration: none;
+            color: #72D5CD;
+        }
+        
+        .recentCards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+
+            .mycard {
+                height: 100%;
+                background-color: #F5F5F5;
+                border-bottom: 2px solid #72D5CD;
+                .cardImage {
+                    width: 100%; 
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .cardText {
+                    gap: 20px;
+                    padding: 25px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+
+                    .width50 {
+                        width: 70%;
+                    }
+
+                    .cardAbout {
+                        text-align: left;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                    }
+                    .textBottom {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+
+                            button {padding: 5px 10px;
+                                background-color: #72D5CD;
+                                color: #fff;
+                            }
+
+                        span {
+                            color: grey;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#studentSay {
+    padding: 60px 0;
+    background-color: #F5F5F5;
+    .mycontainer {
+        width: 50%;
+        margin: 0 auto;
+        .studentTitle {
+            position: relative;
+            margin-bottom: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            .leftArrow, .rightArrow {
+                color: #fff;
+                padding: 10px 15px;
+                background-color: #72D5CD;
+                border-radius: 50%;
+            }
+            .title {
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+            &::after {
+                content: "";
+                width: 30px;
+                height: 1px;
+                background-color: #000;
+                position: absolute;
+                bottom: -20px;
+            }
+        }
+        .studentSay {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            font-size: 18px;
+            
+            .text {
+                color: #C9C9C9;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+
