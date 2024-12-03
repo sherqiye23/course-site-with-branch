@@ -336,4 +336,119 @@ header {
     }
 }
 
+#popularCourses {
+    margin: 50px 0;
+    .container {
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .popularText {
+            position: relative;
+            margin-bottom: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            #text {
+                margin-top: 20px;
+                color: #888888;
+            }
+            .title {
+                margin-bottom: 20px;
+                font-size: 28px;
+                text-transform: uppercase;
+            }
+            &::after {
+                content: "";
+                width: 30px;
+                height: 1px;
+                background-color: #000;
+                position: absolute;
+                bottom: 45px;
+            }
+        }
+        .popularCards {
+            gap: 25px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
 
+#contactUs {
+    margin-top: 40px;
+    padding: 40px 0;
+    background-color: #72D5CD;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .leftText {
+            color: #fff;
+            h2, p {
+                text-align: left;
+            }
+        }
+        .rightButton {
+            button {
+                transition: all .5s ease;
+                padding: 15px 25px;
+                background-color: rgb(85, 85, 85);
+                color: #fff;
+                font-weight: bold;
+                font-size: 13px;
+                &:hover {
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    #footer1 {
+        background-color: #262626;
+        padding: 50px 0;
+        .container {
+            display: grid;
+            gap: 30px;
+            grid-template-columns: repeat(4, 1fr);
+            color: #fff;
+            .footercard {
+                .title {
+                    font-size: 15px;
+                    margin-bottom: 30px;
+                }
+                .aboutparag {
+                    color: #9c9c9c;
+                }
+                .tagparag {
+                    background-color: red;
+                    span {
+                        font-size: 13px;
+                        margin: 5px 0;
+                        padding: 5px;
+                        font-weight: bold;
+                        background-color: #72D5CD;
+                    }
+                }
+            }
+        }
+    }
+    #footer2 {
+        border-top: 1px solid grey;
+        padding: 13px;
+        background-color: #0F0F0F;
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: grey;
+        }
+    }
+}
