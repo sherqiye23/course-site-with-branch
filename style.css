@@ -10,6 +10,148 @@
     border: none;
 }
 
+header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.283);
+
+    .container {
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 15px;
+
+        .phone-email,
+        .icons-access {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            gap: 25px;
+            opacity: .6;
+
+            .phone,
+            .email,
+            .icons {
+                opacity: .7;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                gap: 8px;
+            }
+        }
+    }
+}
+
+#navbar {
+    padding: 20px 0;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo-head {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h2 {
+                font-size: 30px;
+                font-weight: bold;
+            }
+
+            span {
+                font-size: 30px;
+            }
+        }
+
+        .navbar {
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            gap: 20px;
+
+            ul {
+                opacity: .7;
+                font-size: 16px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                gap: 20px;
+            }
+
+            .fa-bars {
+                font-size: 25px;
+                display: none;
+            }
+        }
+    }
+}
+
+#content {
+    .container {
+        .texts {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            gap: 20px;
+            text-align: center;
+
+            .text {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 25px;
+
+                p {
+                    font-size: 20px;
+                    letter-spacing: 2px;
+                }
+
+                span {
+                    opacity: .6;
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}
+
+#magna {
+    margin: 20px 0;
+    background-color: #f5f5f5;
+
+    .container {
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        span {
+            opacity: .7;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #555555;
+            padding: 15px;
+            font-size: 18px;
+            letter-spacing: 1px;
+            color: white;
+        }
+    }
 #slider {
     .carousel-item {
         position: relative;
@@ -57,5 +199,4 @@
             font-size: 20px;
         }
     }
-
 }
