@@ -25,6 +25,19 @@
       "lastname": "fidan",
       "birthdate": "20.08.2005",
       "phone": "+99450"
+    },
+    {
+      "username": "wergie",
+      "password": "12345",
+      "firstname": "weggy",
+      "gender": "female",
+      "email": "sargiyaag-af206@code.edu.az",
+      "address": "uzaq diyarlar",
+      "repassword": "12345",
+      "lastname": "zade",
+      "birthdate": "23092005",
+      "phone": "+994505694323",
+      "id": "aONxMu7"
     }
   ]
 }
