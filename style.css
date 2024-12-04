@@ -52,6 +52,7 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-between;
+
         .logo-head {
             display: flex;
             align-items: center;
@@ -360,18 +361,22 @@ header {
             gap: 20px;
             padding: 40px 0;
 
-            .category, #categories, 
-            #type, .type {
+            .category,
+            #categories,
+            #type,
+            .type {
                 background-color: white;
                 font-size: 18px;
                 width: 100%;
+
                 select {
                     color: black;
                     opacity: .5;
                 }
             }
-            .category, 
-            .type{
+
+            .category,
+            .type {
                 padding: 10px 15px;
             }
 
@@ -458,6 +463,7 @@ header {
             h3 {
                 letter-spacing: 1px;
             }
+
             .iframeVideo {
                 width: 100%;
                 height: 100%;
@@ -466,6 +472,7 @@ header {
             .info {
                 text-align: start;
                 padding: 0 15px;
+
                 p {
                     text-align: left;
                     font-weight: bold;
@@ -761,4 +768,106 @@ footer {
             color: grey;
         }
     }
+}
+
+.myModal {
+    position: relative;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto;
+    background-color: #f3f3f3;
+    padding: 20px;
+    gap: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 6;
+
+    .container {
+        h2 {
+            font-size: 25px;
+        }
+        .icon{
+            cursor: pointer;
+            position: absolute;
+            right: 10px;
+            top: 0;
+            opacity: .6;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .signIn {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+
+            .inputs {
+                display: flex;
+                gap: 40px;
+                width: 100%;
+                margin: 0px auto;
+
+                .input {
+                    font-weight: bold;
+                    opacity: .5;
+                    width: 94%;
+
+                    input {
+                        width: 100%;
+                        display: flex;
+                        margin: 10px 0;
+                        padding: 5px;
+                        background-color: white;
+                    }
+                }
+            }
+
+            a {
+                color: #72d5cd;
+                text-decoration: none;
+            }
+
+            #submit {
+                padding: 10px;
+                background-color: #72D5CD;
+                color: white;
+                font-weight: bold;
+                border-bottom:3px solid #65b4ad;
+            }
+        }
+
+        .register {
+            margin: 20px 0;
+
+            p {
+                opacity: .4;
+                font-weight: bold;
+            }
+
+            button {
+                width: 100%;
+                padding: 10px;
+                background-color: #71cbde;
+                color: white;
+                border-bottom:3px solid #4aacc0;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.myOverlay {
+    background-color: #000;
+    opacity: .5;
+    width: 100%;
+    height: 500vh;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
