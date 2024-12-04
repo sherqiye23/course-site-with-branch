@@ -1,26 +1,19 @@
 @media (min-width:0px) and (max-width:992px) {
-
     .phone-email,
     .icons-access {
         margin: 0px auto;
         flex-wrap: wrap;
     }
-
     .texts {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr) !important;
-
         span {
             width: 70%;
         }
     }
-}
-
-@media (min-width:0px) and (max-width:992px) {
     .list {
         display: none;
     }
-
     .fa-bars {
         display: block !important;
     }
@@ -30,7 +23,6 @@
     .texts {
         display: grid !important;
         grid-template-columns: repeat(1, 1fr) !important;
-
         span {
             width: 40%;
         }
@@ -254,5 +246,12 @@
             flex-direction: column;
             align-items: flex-start;
         }
+    }
+}
+
+@media (min-width:0px) and (max-width:768px){
+
+    #recentNews .container{
+        display: flex;
     }
 }

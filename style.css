@@ -58,7 +58,7 @@ header {
             align-items: center;
             justify-content: center;
 
-            h2 {
+            #clever {
                 font-size: 30px;
                 font-weight: bold;
             }
@@ -286,6 +286,192 @@ header {
                     }
                 }
             }
+        }
+    }
+}
+
+#search-courses{
+    margin: 50px 0;
+    position: relative;
+    .container {
+        position: absolute;
+        gap: 20px;
+        top: 0;
+        padding: 70px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px auto;
+        margin-left: 10%;
+        h2{
+            font-size: 35px;
+            letter-spacing: 2px;
+            color: white;
+        }
+        .head-text{
+            span{
+                font-size: 20px;
+                color: white;
+                opacity: .5;
+            }
+            &::after {
+                content: "";
+                width: 40px;
+                height: 1px;
+                background-color: #fff;
+                position: absolute;
+                margin-left: -170px;
+                margin-top: -10px;
+
+                
+            }
+        }
+        .inputs{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 0;
+
+            .category,.type{    
+                background-color: white;
+                padding: 10px 15px;
+                font-size: 18px;
+            select{
+                color: black;
+                opacity: .5;
+            }
+            }
+            .keywords{
+                width: 300px;
+                background-color: white;
+                padding: 10px 15px;
+                font-size: 18px;
+                input:focus{
+                    border: none;
+                }
+            }
+            .search{
+                background-color: #72d5cd;
+                padding: 10px 25px;
+                font-size: 18px;
+                color: white;
+            }
+        }
+    }
+}
+
+#recentNews{
+    margin: 40px 0;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        .news-card{
+            display: flex;
+                gap: 20px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            width: 50%;
+            .text-head{
+                display: flex;
+                white-space: nowrap;
+                justify-content: center;
+                align-items: center;
+                #readblog{
+                    color: #72d5cd;
+                    font-size: 18px;
+                }
+            }
+            .myCards{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                margin: 0px auto;
+                gap: 10px;
+                .myCard{
+                    width: 100%;    
+                    background-color: #f5f5f5;
+                    padding: 10px;
+                    display: flex;
+                    gap: 10px;
+                    border-bottom: 2px solid #72d5cd;
+                    span{
+                        opacity: .6;
+                    }
+                }
+            }
+        }
+        .school{
+           display: flex;
+           /* align-items: center; */
+           justify-content: center;
+           flex-direction: column;
+           margin-top: 50px;
+           h3{
+            letter-spacing: 1px;
+            /* margin-bottom: 4%; */
+        
+           }
+           .info{
+            width: 80%;
+            text-align: start;
+            p{
+                text-align: left;
+                font-weight: bold;
+                font-size: 20px;
+               }
+               span{
+                opacity: .6;
+               }
+           }
+            
+        }
+        .instructer{
+            display: flex;
+            /* align-items: center; */
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+         .myCard{
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 20px;
+            gap: 10px;
+            margin: 0px auto;
+            text-align: center;
+            .image{
+             width: 100px;
+             border-radius: 50%;
+             img{
+                 /* width: 100%; */
+                 object-fit: contain;
+             }
+            } 
+            .text span{
+                color: #72D5CD;
+                font-size: 20px;
+            }
+            .text p{
+                    opacity: .7 ;
+                }
+                #integer{
+                   opacity: .6;
+                }
+                button{
+                    background-color: #72d5cd;
+                    padding: 10px 25px;
+                    font-size: 18px;
+                    color: white;
+                }
+         }
         }
     }
 }
