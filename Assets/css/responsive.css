@@ -1,5 +1,4 @@
 @media (min-width:0px) and (max-width:992px) {
-
     .phone-email,
     .icons-access {
         margin: 0px auto;
@@ -57,17 +56,6 @@
 
     #recentNews .container {
         grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-@media (min-width:0px) and (max-width:576px) {
-    .texts {
-        display: grid !important;
-        grid-template-columns: repeat(1, 1fr) !important;
-
-        span {
-            width: 40%;
-        }
     }
 }
 
@@ -188,7 +176,6 @@
 /* 576-768 */
 @media (min-width:576px) and (max-width:768px) {
     #slider {
-
         .text1,
         .text2,
         .text3 {
@@ -246,6 +233,7 @@
             align-items: flex-start !important;
         }
     }
+
     #footer1 {
         .container {
             grid-template-columns: repeat(2, 1fr) !important;
@@ -255,6 +243,15 @@
 
 /* 0-576 */
 @media (max-width:576px) {
+    .texts {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+
+        span {
+            width: 40%;
+        }
+    }
+
     #slider {
 
         .text1,
