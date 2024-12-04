@@ -779,6 +779,58 @@ footer {
     }
 }
 
+#register {
+    position: relative;
+    .image {
+        filter: brightness(.3);
+        width: 100%;
+        height: 200px;
+        img {
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+        }
+    }
+    h1 {
+        position: absolute;
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+}
+
+#signUpForm {
+    padding: 70px 0;
+    .container {
+        display: flex;
+        gap: 30px;
+        .leftSign, .rightSign {
+            color: #888888;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-direction: column;
+            width: 50%;
+            button {
+                margin-top: 20px;
+                color: #fff;
+                font-size: 14px;
+                font-weight: bold;
+                width: 30%;
+                padding: 10px 15px;
+                background-color: #72D5CD;
+                border-bottom: 3px solid #4c958f;
+            }
+            input, select, textarea {
+                color: #888888;
+                border: 1px solid #888888;
+                padding: 5px; 
+            }
+        }
+    }
+}
 .myModal {
     position: relative;
     width: 40%;
@@ -873,7 +925,6 @@ footer {
         }
     }
 }
-
 .myOverlay {
     background-color: #000;
     opacity: .5;
