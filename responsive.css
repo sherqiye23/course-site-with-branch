@@ -1,7 +1,11 @@
 @media (min-width:0px) and (max-width:992px) {
     .phone-email,
-    .icons-access {
+    .icons-access{
         margin: 0px auto;
+        flex-wrap: wrap;
+    }
+    .container-head {
+        display: flex ;
         flex-wrap: wrap;
     }
     .texts {
