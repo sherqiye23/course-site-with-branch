@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./Assets/css/style.css">
     <link rel="stylesheet" href="./Assets/css/responsive.css">
     <script defer src="./Assets/JS/scroll.js"></script>
+    <script defer src="./Assets/JS/signUp.js" type="module"></script>
     <!-- title -->
     <title>Sign Up</title>
 </head>
@@ -104,15 +105,16 @@
                     <label for="firstname">First Name *</label>
                     <input type="text" id="firstname" required>
                     <label for="gender">Gender *</label>
-                    <select>
+                    <select id="select">
+                        <option value="gender" id="gender" disabled selected>Gender</option>
                         <option value="male" id="gender">Male</option>
-                        <option value="male" id="gender">Female</option>
+                        <option value="female" id="gender">Female</option>
                     </select>
                     <label for="email">Email *</label>
                     <input type="email" id="email" required>
                     <label for="address">Address *</label>
                     <textarea id="address"></textarea>
-                    <button type="submit">CREATE AN ACCOUNT</button>
+                    <button id="regButton">CREATE AN ACCOUNT</button>
                 </div>
                 <div class="rightSign">
                     <label for="repassword">Re Password *</label>
