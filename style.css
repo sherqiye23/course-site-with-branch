@@ -734,6 +734,12 @@ footer {
                             transition: all .3s ease;
                         }
 
+
+                        #hover {
+                            transition: all .3s ease;
+                        }
+
+
                         #hover:hover {
                             color: #9c9c9c;
                         }

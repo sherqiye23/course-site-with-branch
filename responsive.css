@@ -246,7 +246,6 @@
             align-items: flex-start !important;
         }
     }
-
     #footer1 {
         .container {
             grid-template-columns: repeat(2, 1fr) !important;
@@ -335,6 +334,13 @@
             align-items: flex-start;
         }
     }
+
+    #footer1 {
+        .container {
+            grid-template-columns: repeat(1, 1fr) !important;
+        }
+    }
+}
 
     #footer1 {
         .container {
