@@ -11,9 +11,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./responsive.css">
-    <script defer src="./script.js"></script>
+    <!-- axios -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.8/axios.min.js"
+        integrity="sha512-v8+bPcpk4Sj7CKB11+gK/FnsbgQ15jTwZamnBf/xDmiQDcgOIYufBo6Acu1y30vrk8gg5su4x0CG3zfPaq5Fcg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- sweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./Assets/css/responsive.css">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <script defer src="./Assets/JS/scroll.js" type="module"></script>
+    <script defer src="./Assets/JS/login.js" type="module"></script>
     <!-- title -->
     <title>Clever course</title>
 </head>
@@ -44,7 +51,8 @@
                     <i class="fa-solid fa-lock"></i>
                     <span id="signInForm">Sign in</span>
                     <span>|</span>
-                    <span><a href="./signUp.html" style="text-decoration: none; color: black; opacity: .8;">Sign up</a></span>
+                    <span><a href="./signUp.html" style="text-decoration: none; color: black; opacity: .8;">Sign
+                            up</a></span>
                 </div>
             </div>
         </div>
@@ -53,39 +61,39 @@
 
     <main>
         <section id="navbar">
-           <div class="myContainer">
-            <div class="container">
-                <div class="logo-head">
-                    <span id="clever">Clever </span>
-                    <span> Course</span>
-                </div>
-                <div class="navbar">
-                    <div class="list">
-                        <ul>
-                            <li>Home</li>
-                            <li>•</li>
-                            <li>LMS</li>
-                            <li>•</li>
-                            <li>Pages</li>
-                            <li>•</li>
-                            <li>Blog</li>
-                            <li>•</li>
-                            <li>Portfolia</li>
-                            <li>•</li>
-                            <li>ShortCodes</li>
-                        </ul>
+            <div class="myContainer">
+                <div class="container">
+                    <div class="logo-head">
+                        <span id="clever">Clever </span>
+                        <span> Course</span>
                     </div>
-                    <i class="fa-solid fa-bars"></i>
-                    <div class="icon">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                    <div class="navbar">
+                        <div class="list">
+                            <ul>
+                                <li>Home</li>
+                                <li>•</li>
+                                <li>LMS</li>
+                                <li>•</li>
+                                <li>Pages</li>
+                                <li>•</li>
+                                <li>Blog</li>
+                                <li>•</li>
+                                <li>Portfolia</li>
+                                <li>•</li>
+                                <li>ShortCodes</li>
+                            </ul>
+                        </div>
+                        <i class="fa-solid fa-bars"></i>
+                        <div class="icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-           </div>
+            </div>
         </section>
-      
-    </section>
+
+        </section>
         <section id="slider">
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
@@ -469,11 +477,11 @@
                 <div class="inputs">
                     <div class="input">
                         <label for="username">UserName</label>
-                    <input type="text" id="username">
+                        <input type="text" id="usernameLog">
                     </div>
                     <div class="input">
                         <label for="password">Password</label>
-                    <input type="password" id="password">
+                        <input type="password" id="passwordLog">
                     </div>
                 </div>
                 <a href="#">Lost Your Password?</a>
