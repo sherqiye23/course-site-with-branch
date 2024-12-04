@@ -1,38 +1,52 @@
 @media (min-width:0px) and (max-width:992px) {
+
     .phone-email,
-    .icons-access{
+    .icons-access {
         margin: 0px auto;
         flex-wrap: wrap;
     }
+
     .container-head {
-        display: flex ;
+        display: flex;
         flex-wrap: wrap;
     }
+
     .texts {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr) !important;
+
         span {
             width: 70%;
         }
     }
+
     .list {
         display: none;
     }
+
     .fa-bars {
         display: block !important;
     }
+
     #search-courses {
         img {
             height: 55vh;
             object-fit: cover;
         }
-        #category,.category, #type, .search, .keywords {
+
+        #category,
+        .category,
+        #type,
+        .search,
+        .keywords {
             display: flex;
             justify-content: space-between;
             width: 100% !important;
         }
+
         .container {
             top: 2%;
+
             .inputs {
                 width: 100%;
                 gap: 10px;
@@ -40,8 +54,8 @@
             }
         }
     }
-    
-    #recentNews .container{
+
+    #recentNews .container {
         grid-template-columns: repeat(1, 1fr);
     }
 }
@@ -50,6 +64,7 @@
     .texts {
         display: grid !important;
         grid-template-columns: repeat(1, 1fr) !important;
+
         span {
             width: 40%;
         }
@@ -121,15 +136,23 @@
             width: 70%;
         }
     }
+
     #popularCourses {
         .popularCards {
             grid-template-columns: repeat(2, 1fr) !important;
         }
     }
+
     #contactUs {
         .container {
             flex-direction: column;
             align-items: flex-start;
+        }
+    }
+
+    #footer1 {
+        .container {
+            grid-template-columns: repeat(2, 1fr) !important;
         }
     }
 }
@@ -182,15 +205,22 @@
             width: 95%;
         }
     }
+
     #popularCourses {
         .popularCards {
             grid-template-columns: repeat(1, 1fr) !important;
         }
     }
+
     #contactUs {
         .container {
             flex-direction: column;
             align-items: flex-start !important;
+        }
+    }
+    #footer1 {
+        .container {
+            grid-template-columns: repeat(2, 1fr) !important;
         }
     }
 }
@@ -263,19 +293,25 @@
             }
         }
     }
+
     #popularCourses {
         .popularCards {
             grid-template-columns: repeat(1, 1fr) !important;
         }
     }
+
     #contactUs {
         .container {
             flex-direction: column;
             align-items: flex-start;
         }
     }
+
+    #footer1 {
+        .container {
+            grid-template-columns: repeat(1, 1fr) !important;
+        }
+    }
 }
 
-@media (min-width:0px) and (max-width:992px){
-
-}
+@media (min-width:0px) and (max-width:992px) {}
