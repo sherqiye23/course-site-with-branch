@@ -1,3 +1,4 @@
+/* reset */
 *,
 *::after,
 *::before {
@@ -11,6 +12,7 @@
     border: none;
 }
 
+/* header */
 header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.283);
 
@@ -45,6 +47,7 @@ header {
     }
 }
 
+/* navbar */
 #navbar {
     padding: 20px 0;
     .container {
@@ -96,6 +99,7 @@ header {
     }
 }
 
+/* content */
 #content {
     margin: 70px 0;
 
@@ -129,6 +133,7 @@ header {
     }
 }
 
+/* magna */
 #magna {
     margin: 20px 0;
     background-color: #f5f5f5;
@@ -159,6 +164,7 @@ header {
     }
 }
 
+/* slider */
 #slider {
     .carousel-item {
         position: relative;
@@ -216,6 +222,7 @@ header {
     }
 }
 
+/* recentCourse */
 #recentCourse {
     margin: 50px 0;
 
@@ -309,6 +316,7 @@ header {
     }
 }
 
+/* search-courses */
 #search-courses {
     margin: 50px 0;
     position: relative;
@@ -403,9 +411,9 @@ header {
     }
 }
 
+/* recentNews */
 #recentNews {
     margin: 40px 0;
-
     .container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -510,7 +518,6 @@ header {
                     border-radius: 50%;
 
                     img {
-                        /* width: 100%; */
                         object-fit: contain;
                     }
                 }
@@ -539,6 +546,7 @@ header {
     }
 }
 
+/* studentSay */
 #studentSay {
     padding: 60px 0;
     background-color: #F5F5F5;
@@ -591,7 +599,7 @@ header {
         }
     }
 }
-
+/* popularCourses */
 #popularCourses {
     margin: 50px 0;
 
@@ -643,6 +651,7 @@ header {
     }
 }
 
+/* contactUs */
 #contactUs {
     margin-top: 40px;
     padding: 40px 0;
@@ -679,7 +688,9 @@ header {
     }
 }
 
+/* footer */
 footer {
+    /* footer1 */
     #footer1 {
         background-color: #262626;
         padding: 50px 0;
@@ -771,6 +782,7 @@ footer {
         }
     }
 
+    /* footer2 */
     #footer2 {
         border-top: 1px solid grey;
         padding: 13px;
@@ -784,7 +796,7 @@ footer {
         }
     }
 }
-
+/* register */
 #register {
     position: relative;
     .image {
@@ -807,6 +819,7 @@ footer {
     }
 }
 
+/* signUpForm */
 #signUpForm {
     padding: 70px 0;
     .container {
@@ -837,6 +850,8 @@ footer {
         }
     }
 }
+
+/* modal */
 .myModal {
     position: relative;
     width: 40%;
@@ -931,6 +946,8 @@ footer {
         }
     }
 }
+
+/* overlay */
 .myOverlay {
     background-color: #000;
     opacity: .5;
