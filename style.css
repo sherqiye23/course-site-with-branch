@@ -20,7 +20,7 @@ header {
         align-items: center;
         justify-content: space-between;
         font-size: 15px;
-
+        background-color: white;
         .phone-email,
         .icons-access {
             cursor: pointer;
@@ -47,11 +47,13 @@ header {
 
 #navbar {
     padding: 20px 0;
-
     .container {
         display: flex;
+        margin: 0px auto;
         align-items: center;
         justify-content: space-between;
+        width: 100%;
+        z-index: 10;
 
         .logo-head {
             display: flex;
@@ -701,6 +703,7 @@ footer {
                 .tagparag {
                     display: flex;
                     flex-wrap: wrap;
+
                     span {
                         font-size: 13px;
                         margin: 5px;
@@ -715,18 +718,22 @@ footer {
                         padding: 15px 0;
                         border-bottom: 1px solid #555555;
                         display: flex;
+
                         img {
                             margin-right: 6px;
                             width: 70px;
                             height: 70px;
                         }
+
                         .recentText {
                             font-size: 15px;
                             color: #555555;
                         }
+
                         #hover {
                             transition: all .3s ease;
                         }
+
                         #hover:hover {
                             color: #9c9c9c;
                         }
@@ -742,11 +749,13 @@ footer {
                             color: #9c9c9c;
                             border: none;
                         }
+
                         padding: 10px 0;
                         transition: all .3s ease;
                         border-bottom: 1px solid #555555;
                         color: #555555;
                         font-size: 15px;
+
                         &:hover {
                             color: #9c9c9c;
                         }
@@ -784,14 +793,16 @@ footer {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 6;
+    display: none;
 
     .container {
         h2 {
             font-size: 25px;
         }
-        .icon{
+
+        .icon {
             cursor: pointer;
             position: absolute;
             right: 10px;
@@ -800,6 +811,7 @@ footer {
             font-size: 20px;
             font-weight: bold;
         }
+
         .signIn {
             margin: 20px 0;
             display: flex;
@@ -838,7 +850,7 @@ footer {
                 background-color: #72D5CD;
                 color: white;
                 font-weight: bold;
-                border-bottom:3px solid #65b4ad;
+                border-bottom: 3px solid #65b4ad;
             }
         }
 
@@ -855,7 +867,7 @@ footer {
                 padding: 10px;
                 background-color: #71cbde;
                 color: white;
-                border-bottom:3px solid #4aacc0;
+                border-bottom: 3px solid #4aacc0;
                 font-weight: bold;
             }
         }
@@ -870,4 +882,5 @@ footer {
     position: absolute;
     top: 0;
     left: 0;
+    display: none;
 }
