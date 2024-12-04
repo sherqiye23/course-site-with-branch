@@ -9,7 +9,6 @@ let myModal = document.querySelector(".myModal")
 
 window.addEventListener("scroll", () => {
     let scrollPosition = window.scrollY
-    console.log(scrollPosition);
 
     let header = document.querySelector("#navbar .container")
     if (scrollPosition > 30) {
