@@ -52,7 +52,6 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-between;
-
         .logo-head {
             display: flex;
             align-items: center;
