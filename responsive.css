@@ -21,6 +21,29 @@
     .fa-bars {
         display: block !important;
     }
+    #search-courses {
+        img {
+            height: 55vh;
+            object-fit: cover;
+        }
+        #category,.category, #type, .search, .keywords {
+            display: flex;
+            justify-content: space-between;
+            width: 100% !important;
+        }
+        .container {
+            top: 2%;
+            .inputs {
+                width: 100%;
+                gap: 10px;
+                flex-direction: column;
+            }
+        }
+    }
+    
+    #recentNews .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media (min-width:0px) and (max-width:576px) {
@@ -253,9 +276,6 @@
     }
 }
 
-@media (min-width:0px) and (max-width:768px){
+@media (min-width:0px) and (max-width:992px){
 
-    #recentNews .container{
-        display: flex;
-    }
 }
