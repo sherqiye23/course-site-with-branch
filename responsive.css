@@ -94,6 +94,7 @@
             .signIn {
                 width: 100%;
                 flex-direction: column !important;
+                text-align: left;
             }
 
             .inputs {
