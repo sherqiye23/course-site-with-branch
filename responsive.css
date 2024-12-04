@@ -105,7 +105,8 @@
             #submit {
                 width: 100%;
             }
-            .register{
+
+            .register {
                 text-align: left;
             }
         }
@@ -341,4 +342,9 @@
     }
 }
 
-@media (min-width:0px) and (max-width:992px) {}
+    #footer1 {
+        .container {
+            grid-template-columns: repeat(1, 1fr) !important;
+        }
+    }
+}
