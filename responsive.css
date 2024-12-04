@@ -1,26 +1,23 @@
 @media (min-width:0px) and (max-width:992px) {
-
     .phone-email,
-    .icons-access {
+    .icons-access{
         margin: 0px auto;
         flex-wrap: wrap;
     }
-
+    .container-head {
+        display: flex ;
+        flex-wrap: wrap;
+    }
     .texts {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr) !important;
-
         span {
             width: 70%;
         }
     }
-}
-
-@media (min-width:0px) and (max-width:992px) {
     .list {
         display: none;
     }
-
     .fa-bars {
         display: block !important;
     }
@@ -30,7 +27,6 @@
     .texts {
         display: grid !important;
         grid-template-columns: repeat(1, 1fr) !important;
-
         span {
             width: 40%;
         }
@@ -49,5 +45,217 @@
 
     button {
         margin: 10px auto;
+    }
+}
+
+/* sherqiye yazdi */
+/* 992-1200 */
+@media (min-width:992px) and (max-width:1200px) {
+    #slider {
+        .text {
+            gap: 10px;
+
+            h1 {
+                font-size: 50px;
+            }
+        }
+    }
+
+    #recentCourse {
+        .textBottom {
+            gap: 10px;
+            flex-direction: column;
+        }
+    }
+
+}
+
+/* 768-992 */
+@media (min-width:768px) and (max-width:992px) {
+    #slider {
+        .text {
+            gap: 0px;
+
+            h1 {
+                font-size: 45px;
+            }
+        }
+    }
+
+    #recentCourse {
+        .recentCards {
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+
+        .textBottom {
+            gap: 10px;
+            flex-direction: column;
+        }
+    }
+
+    #studentSay {
+        .mycontainer {
+            width: 70%;
+        }
+    }
+    #popularCourses {
+        .popularCards {
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+    }
+    #contactUs {
+        .container {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+}
+
+/* 576-768 */
+@media (min-width:576px) and (max-width:768px) {
+    #slider {
+
+        .text1,
+        .text2,
+        .text3 {
+            left: 50%;
+            align-items: center;
+        }
+
+        .text {
+            gap: 0px;
+
+            h1 {
+                font-size: 23px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+
+            .text-button {
+                padding: 5px;
+            }
+        }
+    }
+
+    #recentCourse {
+        .recentCards {
+            grid-template-columns: repeat(1, 1fr) !important;
+        }
+
+        .textBottom {
+            gap: 10px;
+            flex-direction: column;
+        }
+    }
+
+    #studentSay {
+        .mycontainer {
+            width: 95%;
+        }
+    }
+    #popularCourses {
+        .popularCards {
+            grid-template-columns: repeat(1, 1fr) !important;
+        }
+    }
+    #contactUs {
+        .container {
+            flex-direction: column;
+            align-items: flex-start !important;
+        }
+    }
+}
+
+/* 0-576 */
+@media (max-width:576px) {
+    #slider {
+
+        .text1,
+        .text2,
+        .text3 {
+            left: 50%;
+            align-items: center;
+        }
+
+        .text {
+            gap: 0px;
+
+            h1 {
+                font-size: 16px;
+            }
+
+            h2 {
+                margin-top: -8px;
+                font-size: 16px;
+            }
+
+            p {
+                margin-top: -8px;
+                font-size: 14px;
+            }
+
+            .text-button {
+                padding: 5px;
+                margin-top: -10px;
+            }
+        }
+    }
+
+    #recentCourse {
+        .recentCards {
+            grid-template-columns: repeat(1, 1fr) !important;
+        }
+
+        .textBottom {
+            gap: 10px;
+            flex-direction: column;
+        }
+
+        .width50 {
+            width: 100% !important;
+        }
+
+    }
+
+    #studentSay {
+        .mycontainer {
+            width: 95%;
+
+            .studentTitle {
+                gap: 20px;
+
+                .title {
+                    font-size: 20px;
+                }
+            }
+
+            .studentSay {
+                flex-direction: column;
+            }
+        }
+    }
+    #popularCourses {
+        .popularCards {
+            grid-template-columns: repeat(1, 1fr) !important;
+        }
+    }
+    #contactUs {
+        .container {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+}
+
+@media (min-width:0px) and (max-width:768px){
+
+    #recentNews .container{
+        display: flex;
     }
 }

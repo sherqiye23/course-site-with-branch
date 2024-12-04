@@ -55,7 +55,8 @@
         <section id="navbar">
             <div class="container">
                 <div class="logo-head">
-                    <h2>Clever </h2><span> Course</span>
+                    <span id="clever">Clever </span>
+                    <span> Course</span>
                 </div>
                 <div class="navbar">
                     <div class="list">
@@ -74,11 +75,13 @@
                         </ul>
                     </div>
 
+
                     <i class="fa-solid fa-bars"></i>
                     <div class="icon">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                </div>
+
+
             </div>
         </section>
         <section id="slider">
@@ -89,6 +92,7 @@
                         <div class="text text1">
                             <h1>THE BEST SOLUTION</h1>
                             <h2>TO CREATE AND SELL ONLINE COURSES</h2>
+
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates tenetur molestiae
                                 odit, labore aperiam aut?</p>
                             <button class="text-button">LEARN MORE</button>
@@ -163,36 +167,290 @@
                 <button>Learn More</button>
             </div>
         </section>
+        <!-- sherqiye yazdi aa Fidan bala -->
         <section id="recentCourse">
-            <div class="recentTitle">
-
-            </div>
-            <div class="container text-center">
-                <div class="row">
-                  <div class="col">
-                    <div class="recentCard">
-                        <div class="recentImage">
-                            <img src="" alt="...">
+            <div class="container">
+                <div class="recentTitle">
+                    <span class="leftArrow"><i class="fa-solid fa-chevron-left"></i></span>
+                    <span class="title">Recent Courses</span>
+                    <span class="rightArrow"><i class="fa-solid fa-chevron-right"></i></span>
+                </div>
+                <a href="#" class="viewLink">View All Courses</a>
+                <div class="recentCards container">
+                    <!-- 1 -->
+                    <div class="mycard">
+                        <div class="cardImage">
+                            <img src="./image/photodune-6243139-vintage-photography-m-700x400.jpg" alt="...">
                         </div>
-                        <div class="recentText">
-                            <h4>HOW TO BE A GREAT PHOTOGRAPHER</h4>
-                            <div class="recentTime">
-                                <button>Free</button>
-                                <span>MAR 17, 2015 - MAR 21, 2019</span>
+                        <div class="cardText">
+                            <div class="cardAbout width50">How To Be A Great Photographer</div>
+                            <div class="textBottom">
+                                <div class="cardButton"><button><b>Free</b></button></div>
+                                <span><i class="fa-regular fa-clock"></i> Mar 17, 2015 - Mar 21, 2019</span>
                             </div>
                         </div>
                     </div>
-                  </div>
-                  <div class="col">
-                    Column
-                  </div>
-                  <div class="col">
-                    Column
-                  </div>
+                    <!-- 2 -->
+                    <div class="mycard">
+                        <div class="cardImage">
+                            <img src="./image/photodune-6252039-web-and-seo-analytics-concept-m-700x400.jpg" alt="...">
+                        </div>
+                        <div class="cardText">
+                            <div class="cardAbout">Creating WordPress Theme, All tricks, technique, study with real guru
+                            </div>
+                            <div class="textBottom">
+                                <div class="cardButton"><button><b>$69</b></button></div>
+                                <span><i class="fa-regular fa-clock"></i> Mar 17, 2015 - Mar 21, 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="mycard">
+                        <div class="cardImage">
+                            <img src="./image/Fotolia_32338952_Subscription_Monthly_XL-700x400.jpg" alt="...">
+                        </div>
+                        <div class="cardText">
+                            <div class="cardAbout">Be A Great Leader, Learn how to motivate your employees</div>
+                            <div class="textBottom">
+                                <div class="cardButton"><button><b>$89</b></button></div>
+                                <span><i class="fa-regular fa-clock"></i> Mar 2, 2015 - Mar 6, 2015</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+            </div>
+        </section>
+
+        <!--Burdan da Fidan yazd -->
+
+        <section id="search-courses">
+            <img src="./image/search-bg.jpg" alt="" style="width: 100%;">
+            <div class="container">
+                <div class="head">
+                   <h2>Search For Courses</h2>
+                </div>
+                <div class="head-text">
+                   <span> Fill keywords to seek for courses</span>
+                </div>
+                <div class="inputs">
+                   <div class="category">
+                    <select name="categories" id="categories">
+                        <option value="category">Category</option>
+                        <option value="app">App</option>
+                        <option value="cook">Cook</option>
+                        <option value="illustration">Illustration</option>
+                        <option value="improving">Improving</option>
+                        <option value="motivate">Motivate</option>
+                        <option value="onlineCourse">Online Courses</option>
+                        <option value="onsiteCourse">Onsite Course</option>
+                        <option value="photography">Photography</option>
+                        <option value="sosialMedia">Sosial Media</option>
+                        <option value="speaking">Speaking</option>
+                        <option value="startUp">Start Up</option>
+                        <option value="website">Website</option>
+                      </select>
+                   </div>
+                   <div class="type">
+                    <select name="type" id="type">
+                        <option value="type">Type</option>
+                        <option value="onlineCourse">Online Course</option>
+                        <option value="onsiteCourse">Onsite Course</option>\
+                      </select>
+                   </div>
+                   <div class="keywords">
+                    <input type="text" placeholder="Keywords">
+                   </div>
+                   <button class="search">Search</button>
+                </div>
+            </div>
+        </section>
+        <!-- Seacrh Coursenin responsivi qalib -->
+
+        <section id="recentNews">
+            <div class="container">
+                <div class="news-card">
+                    <div class="text-head">
+                        <h3>Recent News </h3>
+                    <span id="readblog"> / Read the Blog</span>
+                    </div>
+                    <div class="myCards">
+                        <div class="myCard">
+                            <img src="./image/recent-1.jpg" alt="" width="70px" height="70px">
+                            <div class="text">
+                                <p>Sem Porta Mollis Parturient</p>
+                                <span>17 May 2014</span>
+                            </div>
+                        </div>
+                        <div class="myCard">
+                            <img src="./image/recent-2.jpg" alt="" width="70px" height="70px">
+                            <div class="text">
+                                <p>
+                                    Nullam Lorem Mattis Purus</p>
+                                <span>26 Apr 2014</span>
+                            </div>
+                        </div>
+                        <div class="myCard">
+                            <img src="./image/recent-3.jpg" alt="" width="70px" height="70px">
+                            <div class="text">
+                                <p>
+                                    Nibh Sem Sit Ullamcorper</p>
+                                <span>12 May 2014</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="school">
+                    <h3>School Walkthrough</h3>
+                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/58548211?h=eb665c4488" width="80%" height="260" frameborder="0" allowfullscreen></iframe>
+                   <div class="info">
+                    <p>Fermentum Vulputate</p>
+                    <span>Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</span>
+                   </div>
+                </div>
+                <div class="instructer">
+                    <h3>Featured Instructer</h3>
+                    <div class="myCard">
+                        <img src="./image/simon.jpg" alt="" class="image" >
+                        <div class="text">
+                            <span>Simon Snow</span>
+                            <p>Programmer, System Analysist</p>
+                        </div>
+                        <span id="integer">Integer posuere erat a ante venenatis dapibus posuere velit aliquet.…</span>
+                        <button>View Profile</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="studentSay">
+            <div class="mycontainer">
+                <div class="studentTitle">
+                    <span class="leftArrow"><i class="fa-solid fa-chevron-left"></i></span>
+                    <span class="title">What student say?</span>
+                    <span class="rightArrow"><i class="fa-solid fa-chevron-right"></i></span>
+                </div>
+                <div class="studentSay">
+                    <img src="./image/dirnaqIsaresi.png" alt="...">
+                    <div>
+                        <div class="text">
+                            Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget
+                            metus. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra
+                            augue.
+                        </div>
+                        <div class="studentName"><span style="color: #72D5CD;">Edward Philipe</span>, Programmer</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="popularCourses">
+            <div class="container">
+                <div class="popularText">
+                    <span class="title">Check out some Popular courses
+                    </span>
+                    <span id="text">Tellus Elit Euismod Ultricies</span>
+                </div>
+
+                <div class="popularCards">
+                    <div class="image">
+                        <img src="./image/banner-1.jpg" alt="...">
+                    </div>
+                    <div class="image">
+                        <img src="./image/banner-2.jpg" alt="...">
+                    </div>
+                    <div class="image">
+                        <img src="./image/banner-3.jpg" alt="...">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contactUs">
+            <div class="container">
+                <div class="leftText">
+                    <h2>Feel free to ask us</h2>
+                    <p>If you have any questions, please feel free to drop us questions</p>
+                </div>
+                <div class="rightButton">
+                    <button>CONTACT US</button>
+                </div>
+            </div>
         </section>
     </main>
+
+    <footer>
+        <section id="footer1">
+            <div class="container">
+                <div class="footercard">
+                    <div class="title">ABOUT US</div>
+                    <div class="aboutparag">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</div>
+                </div>
+                <div class="footercard">
+                    <div class="title">TAG CLOUD</div>
+                    <div class="tagparag">
+                        <span>ANIMAL</span>
+                        <span>ASIDE</span>
+                        <span>AUDIO</span>
+                        <span>BLOG</span>
+                        <span>BUSINESS</span>
+                        <span>GALLERY THUMBNAIL</span>
+                        <span>IDENTITY</span>
+                        <span>LIFE STYLE</span>
+                        <span>LINK</span>
+                        <span>NEWS</span>
+                        <span>POST FORMAT</span>
+                        <span>QUOTE</span>
+                        <span>SAFARI</span>
+                        <span>TRAVEL</span>
+                        <span>VIDEO</span>
+                    </div>
+                </div>
+                <div class="footercard">
+                    <div class="title">TAG CLOUD</div>
+                    <div class="tagparag">
+                        <span>ANIMAL</span>
+                        <span>ASIDE</span>
+                        <span>AUDIO</span>
+                        <span>BLOG</span>
+                        <span>BUSINESS</span>
+                        <span>GALLERY THUMBNAIL</span>
+                        <span>IDENTITY</span>
+                        <span>LIFE STYLE</span>
+                        <span>LINK</span>
+                        <span>NEWS</span>
+                        <span>POST FORMAT</span>
+                        <span>QUOTE</span>
+                        <span>SAFARI</span>
+                        <span>TRAVEL</span>
+                        <span>VIDEO</span>
+                    </div>
+                </div>
+                <div class="footercard">
+                    <div class="title">TAG CLOUD</div>
+                    <div class="tagparag">
+                        <span>ANIMAL</span>
+                        <span>ASIDE</span>
+                        <span>AUDIO</span>
+                        <span>BLOG</span>
+                        <span>BUSINESS</span>
+                        <span>GALLERY THUMBNAIL</span>
+                        <span>IDENTITY</span>
+                        <span>LIFE STYLE</span>
+                        <span>LINK</span>
+                        <span>NEWS</span>
+                        <span>POST FORMAT</span>
+                        <span>QUOTE</span>
+                        <span>SAFARI</span>
+                        <span>TRAVEL</span>
+                        <span>VIDEO</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="footer2">
+            <div class="container">
+                <span>Theme By GoodLayers</span>
+                <span>Copyright © 2014 - All Right Reserved - GoodLayers inc</span>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
