@@ -84,6 +84,33 @@
     button {
         margin: 10px auto;
     }
+
+    .myModal {
+        width: 90%;
+
+        .container {
+            flex-direction: column !important;
+
+            .signIn {
+                width: 100%;
+                flex-direction: column !important;
+                text-align: left;
+            }
+
+            .inputs {
+                text-align: left;
+                flex-direction: column;
+            }
+
+            #submit {
+                width: 100%;
+            }
+            .register{
+                text-align: left;
+            }
+        }
+    }
+
 }
 
 /* sherqiye yazdi */

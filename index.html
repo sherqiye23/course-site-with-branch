@@ -42,7 +42,7 @@
                 </div>
                 <div class="access">
                     <i class="fa-solid fa-lock"></i>
-                    <span>Sign in</span>
+                    <span id="signInForm">Sign in</span>
                     <span>|</span>
                     <span>Sign up</span>
                 </div>
@@ -77,11 +77,11 @@
                         </ul>
                     </div>
                     <i class="fa-solid fa-bars"></i>
-
-               </div>
                     <div class="icon">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
+               </div>
+                  
 
                </div>
                     
@@ -462,6 +462,35 @@
             </div>
         </section>
     </footer>
+
+    <div class="myModal">
+        <div class="container">
+            <div class="icon">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <h2>Please sign in first</h2>
+            <form class="signIn">
+                <div class="inputs">
+                    <div class="input">
+                        <label for="username">UserName</label>
+                    <input type="text" id="username">
+                    </div>
+                    <div class="input">
+                        <label for="password">Password</label>
+                    <input type="password" id="password">
+                    </div>
+                </div>
+                <a href="#">Lost Your Password?</a>
+                <button type="submit" id="submit">Sign In!</button>
+            </form>
+            <div class="register">
+                <h2>Not a member?</h2>
+                <p>Please simply create an account before buying/booking any courses.</p>
+                <button>Create an account for</button>
+            </div>
+        </div>
+    </div>
+    <div class="myOverlay"></div>
 </body>
 
 </html>
