@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Fidan",
+      "password": 123,
+      "firstname": "Zeynalova",
+      "gender": "female",
+      "email": "fidan@gmail.com",
+      "address": "baki",
+      "repassword": 123,
+      "lastname": "fidan",
+      "birthdate": "20.08.2005",
+      "phone": "+99450"
+    },
+    {
+      "id": "2429",
+      "username": "wergiye",
+      "password": 123,
+      "firstname": "quluzade",
+      "gender": "female",
+      "email": "wergie@gmail.com",
+      "address": "baki",
+      "repassword": 123,
+      "lastname": "fidan",
+      "birthdate": "20.08.2005",
+      "phone": "+99450"
+    }
+  ]
+}
