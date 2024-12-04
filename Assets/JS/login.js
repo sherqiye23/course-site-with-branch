@@ -11,11 +11,7 @@ signInForm.addEventListener("submit",(e)=>{
     GetAllDatas(`${baseUrl}/users`)
     .then(res => {
         let users = res.datas
-        console.log(users);
-        console.log(userName.value,password.value);
-        
-        let findedUser = users.find(user => user.username == userName.value && user.password == password.value)
-        console.log(findedUser);        
+        let findedUser = users.find(user => user.username == userName.value && user.password == password.value)       
         if(findedUser){
             Swal.fire({
                 icon: "success",
