@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,14 +16,18 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- sweetAlert -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- css -->
     <link rel="stylesheet" href="./Assets/css/style.css">
     <link rel="stylesheet" href="./Assets/css/responsive.css">
+    <!-- js -->
     <script defer src="./Assets/JS/scroll.js"></script>
+    <script defer src="./Assets/JS/signUp.js" type="module"></script>
     <!-- title -->
     <title>Sign Up</title>
 </head>
 
 <body>
+    <!-- header -->
     <header>
         <div class="container">
             <div class="phone-email">
@@ -57,7 +60,9 @@
     </header>
 
 
+    <!-- main -->
     <main>
+        <!-- navbar -->
         <section id="navbar">
             <div class="container">
                 <div class="logo-head">
@@ -87,13 +92,16 @@
                 </div>
             </div>
         </section>
+
+        <!-- register -->
         <section id="register">
             <div class="image">
                 <img src="./Assets/image/page-title-background.jpg" alt="">
             </div>
             <h1>REGISTER</h1>
-
         </section>
+
+        <!-- signUpForm -->
         <section id="signUpForm">
             <div class="container">
                 <div class="leftSign">
@@ -104,15 +112,16 @@
                     <label for="firstname">First Name *</label>
                     <input type="text" id="firstname" required>
                     <label for="gender">Gender *</label>
-                    <select>
+                    <select id="select">
+                        <option value="gender" id="gender" disabled selected>Gender</option>
                         <option value="male" id="gender">Male</option>
-                        <option value="male" id="gender">Female</option>
+                        <option value="female" id="gender">Female</option>
                     </select>
                     <label for="email">Email *</label>
                     <input type="email" id="email" required>
                     <label for="address">Address *</label>
                     <textarea id="address"></textarea>
-                    <button type="submit">CREATE AN ACCOUNT</button>
+                    <button id="regButton">CREATE AN ACCOUNT</button>
                 </div>
                 <div class="rightSign">
                     <label for="repassword">Re Password *</label>
@@ -128,7 +137,10 @@
         </section>
     </main>
 
+
+    <!-- footer -->
     <footer>
+        <!-- footer1 -->
         <section id="footer1">
             <div class="container">
                 <div class="footercard">
@@ -201,6 +213,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- footer2 -->
         <section id="footer2">
             <div class="container">
                 <span>Theme By GoodLayers</span>
@@ -209,5 +223,4 @@
         </section>
     </footer>
 </body>
-
 </html>
